@@ -19,3 +19,6 @@
 
 ![image](https://github.com/user-attachments/assets/9d5b97ab-5d77-4fdb-9196-e4ac5bffc131)
 ![image](https://github.com/user-attachments/assets/de9d0e0b-bf83-4f2c-8780-afdeaac86ad0)
+
+## 📄 License
+This project is licensed under the MIT License.
