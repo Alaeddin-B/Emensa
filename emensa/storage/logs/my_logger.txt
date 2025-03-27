@@ -250,3 +250,5 @@
 [2025-01-16T13:26:31.390780+00:00] my_logger.INFO: Zugriff auf der Hauptseite [] []
 [2025-01-16T13:26:48.735891+00:00] my_logger.INFO: Zugriff auf der Hauptseite [] []
 [2025-03-21T13:21:53.189765+00:00] my_logger.INFO: Zugriff auf der Hauptseite [] []
+[2025-03-27T15:31:59.420198+00:00] my_logger.INFO: Zugriff auf der Hauptseite [] []
+[2025-03-27T15:32:55.909309+00:00] my_logger.INFO: Zugriff auf der Hauptseite [] []
