@@ -1,0 +1,11 @@
+
+<ul>
+ <?php if(empty($gerichte)): ?>
+ <h3>Es sind keine Gerichte vorhanden</h3>
+ <?php else: ?>
+ <?php $__currentLoopData = $gerichte; $this->addLoop($__currentLoopData);$this->getFirstLoop();
+ foreach($__currentLoopData as $gericht): $loop = $this->incrementLoopIndices();  ?>
+ <li><?php echo \htmlentities($gericht['name']??'', ENT_QUOTES, 'UTF-8', false); ?> für <?php echo \htmlentities($gericht['preisintern']??'', ENT_QUOTES, 'UTF-8', false); ?>€</li>
+ <?php endforeach; $this->popLoop(); $loop = $this->getFirstLoop(); ?>
+ <?php endif; ?>
+</ul>

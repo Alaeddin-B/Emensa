@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de" xmlns="http://www.w3.org/1999/html">
+<head>
+ <meta charset="UTF-8">
+ <title>Ihre E-Mensa</title>
+ <link rel="stylesheet" href="css/hauptseite_style.css">
+
+</head>
+<body>
+<header class="inBody">
+ <?php echo $this->yieldContent('kopfbereich'); ?>
+</header>
+<hr>
+<main class="inBody">
+ <div>
+ <?php echo $this->yieldContent('begruessung'); ?>
+
+ </div>
+ <div>
+ <?php echo $this->yieldContent('gerichte'); ?>
+
+ </div>
+ <div>
+ <?php echo $this->yieldContent('newsletterAnmeldung'); ?>
+ </div>
+</main>
+<footer>
+ <?php echo $this->yieldContent('fussbereich'); ?>
+</footer>
+</body>
+</html>

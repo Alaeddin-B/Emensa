@@ -1,0 +1,16 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title', "page1"); ?>
+
+<?php $this->startSection('header'); ?>
+ <h1> das ist das header von page 1</h1>
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('main'); ?>
+ <p>Lorum epsum text</p>
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('footer'); ?>
+ <p><b>copyrights von page1</b></p>
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('examples.layout.m4_7d_layout'); } ?>

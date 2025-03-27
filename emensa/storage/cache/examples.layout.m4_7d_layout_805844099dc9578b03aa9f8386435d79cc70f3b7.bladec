@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+ <title><?php echo $this->yieldContent('title'); ?></title>
+</head>
+<body>
+<header>
+ <?php echo $this->yieldContent('header'); ?>
+</header>
+
+<main>
+ <?php echo $this->yieldContent('main'); ?>
+</main>
+
+<footer>
+ <?php echo $this->yieldContent('footer'); ?>
+</footer>
+</body>
+</html>
